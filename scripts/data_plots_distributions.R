@@ -2,7 +2,7 @@
 library(ggplot2)
 
 # load dataset
-electionData <- read.csv(file="../responses/responses_preprocessed_2.csv", header=TRUE, sep=",")
+electionData <- read.csv(file="F:/SI/survey/si-election-2019-survey/responses/responses_preprocessed_2.csv", header=TRUE, sep=",")
 candidate <- table(electionData$Voted_Candidate)
 
 # Stacked

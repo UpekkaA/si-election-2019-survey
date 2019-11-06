@@ -1,5 +1,5 @@
 # Read CSV into R
-electionData <- read.csv(file="../responses/responses_preprocessed_2.csv", header=TRUE, sep=",")
+electionData <- read.csv(file="F:/SI/survey/si-election-2019-survey/responses/responses_preprocessed_2.csv", header=TRUE, sep=",")
 #head(electionData)
 winnertable <- table(electionData$Voted_Candidate)
 
